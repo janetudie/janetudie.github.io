@@ -7,4 +7,4 @@ Hello there! This blog catalogues my personal foray into programming. More about
 
 Very big thanks to The Odin Project, Coursera, and edX, for providing much-needed periodical kicks in the posterior.
 
-As an aside, this website is created using Jekyll and hosted on Github Pages, after a steep learning curve in which I almost died through caffeine overdose. Hopefully it will all be worth it in the end.
+As an aside, this website is created using Jekyll and hosted on Github Pages, after a steep learning curve in which I almost died of caffeine overdose. Hopefully it will all be worth it in the end.
