@@ -10,10 +10,13 @@ Anyway, if you're a beginner, the files in this repo can be daunting. I suggest 
 Some questions you may have, or not (the answers to these are also on my website):
 
 **Who is Janetudie?**
+
 I don't like putting my real name out there (for reasons), but I am a recent college graduate in the early twenties with a major in Genetics. I go by 'Jan', or 'Jane' if you prefer, because 'Jan' is a substring of my last name and I... don't like my first name much. I'll tell you this - it's one letter away from vagina. Not a good name if I ever want to, you know, live respectably.
 
 **Why are you doing this?**
+
 To learn, of course! To help other people learn, too, if I can. Right now I don't think I'm qualified to teach anything, but I'm always open to questions and you can reach me at semanticjellyfish@gmail.com.
 
 **Why web development/computer science?**
-Because I like it. Because I really really like good UX design. Because there's an app I want to make. Lots of reasons, I can't pick just one!
+
+Because I like logic puzzles. Because I really really like good UX design. Because there's an app I want to make. Lots of reasons, I can't pick just one!
