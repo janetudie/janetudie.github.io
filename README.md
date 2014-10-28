@@ -12,8 +12,11 @@ Some questions you may have, or not (the answers to these would also be on my we
 **Who is Janetudie?** <br>
 I don't like putting my real name out there (for reasons), but I am a recent college graduate in the early twenties with a major in Genetics. I go by 'Jan', or 'Jane' if you prefer, because 'Jan' is a substring of my last name and I... don't like my first name much. I'll tell you this - it's one letter away from vagina. Not a good name if I ever want to, you know, live respectably.
 
+**What the hell is semantic jellyfish?** <br>
+It's based on a quote from the podcast Welcome to Night Vale, which I used to listen to. The quote goes as follows: "There is a thin semantic line separating weird and beautiful. And that line is covered in jellyfish." I happen to like jellyfish (a lot). One day I might change the name to something more descriptive, but for now, it stays.
+
 **Why are you doing this?** <br>
-To learn, of course! To help other people learn, too, if I can. Right now I don't think I'm qualified to teach anything, but I'm always open to questions and you can reach me at semanticjellyfish@gmail.com.
+To learn, of course! To help other people learn, too, if I can. Right now I don't think I'm qualified to teach anything, but I'm always open to questions and you can reach me at jellyfishsemantics@gmail.com.
 
 **Why web development/computer science?** <br>
 Because I like logic puzzles. Because I really really like good UX design. Because there's an app I want to make. Lots of reasons, I can't pick just one!
