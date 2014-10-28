@@ -1,33 +1,30 @@
+<div class="sidebar-button">
+	<div class="sidebar-button-wrapper">
+		<div class="sticks"></div>
+		<div class="sticks"></div>
+		<div class="sticks"></div>
+	</div>
+</div>
+
 <div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
-          Jellyfish Semantics
-        </a>
-      </h1>
-      <p class="lead">{{ site.description }}</p>
-    </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-      
-    </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-  </div>
+	<div class="sidebar-text-container">
+		<div class="sidebar-title">
+			<h1>
+				<span class="font-change-jelly">jellyfish</span> semantics
+			</h1>
+		</div>
+		<div class="sidebar-about"</div>
+			<p class="lead">There is a thin semantic line between <span class="font-change-light">functional</span> and <span class="font-change-dark">weird</span>, and that line is covered in jellyfish</p>
+		</div>
+		<nav class="sidebar-nav">
+			<ul>
+				<li><a class="sidebar-nav-item" href="#">home</a></li>
+				<li><a class="sidebar-nav-item" href="#">about</a></li>
+          		<li><a class="sidebar-nav-item" href="https://github.com/janetudie">repo</a></li>
+      		</ul>
+    	</nav>
+    	<div class="sidebar-bottom">
+    		<p>This website is <span title="painfully, as I am trash and know nothing">powered</span> by <a href="http://jekyllrb.com/">Jekyll</a>, <span title="also painfully">built</span> from <a href="http://demo.getpoole.com/">Poole</a>, and <span title="not as painfully as the other two">hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
+    	</div>
+	</div>
 </div>
