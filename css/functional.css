@@ -1,0 +1,219 @@
+/* 
+   Cannibalized from Hyde, a Jekyll theme by @mdo.
+   I would build him a shrine, but I have no money.
+ */
+
+
+/*
+   Roboto is available for free from Google Fonts.
+   Google may be evil, but they are generous. 
+ */
+html {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+/* 
+   This @media query thing sets font size according to browser window size.
+   How neat is that?
+ */
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+}
+
+
+/*
+   This is where the fun stuff begins.
+   I hope you're excited.
+  
+   If not, well. Fuck you too?
+  
+   Sorry.
+ */
+
+
+/* SIDEBAR */
+ .sidebar {
+	background: #000000;
+ 	text-align: right;
+ 	/* Original @media query begins here. */
+ 	position: fixed;
+    top: 0;
+    left: -18rem;
+    bottom: 0;
+    width: 18rem;
+    -webkit-transition: left 1.5s
+ 	/* Try to put a linear gradient to dark blue. */
+ }
+
+ .slide {
+ 	left: 0;
+ }
+
+ @media (max-width: 48em) {
+  .sidebar {
+
+  }
+}
+
+/* SIDEBAR TITLE */
+.sidebar-title {
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 100; /* This is apparently not working and I'm tired. */
+	padding-right: 2em;
+}
+
+/* Changing the font of "Jellyfish" */
+.font-change-jelly {
+	color: #39B7CD;
+
+}
+
+
+/* SIDEBAR DESCRIPTION */
+.sidebar-about {
+	color: #333333;
+	text-align: right;
+	font-size: 0.8em;
+	padding: 2em;
+}
+
+.font-change-light {
+	color: #ffffff;
+}
+
+.font-change-dark {
+	color: #39B7CD
+}
+
+
+/* SIDEBAR NAVIGATION */
+.sidebar-nav {
+	color: #333333;
+	text-align: right;
+	font-size: 0.8em;
+	padding: 2em;
+
+}
+
+/* Remove list bullets */
+ul {
+	list-style-type: none;
+}
+
+/* Navigation item fonts */
+.sidebar-nav a {
+	color: #333333;
+	text-decoration: none;
+}
+
+/* Changes colour of every odd or even list item on hover.
+
+   The selectors are a mouthful, I know.
+   But the main html file has <a> inside the <li> tags,
+   and <li> is the immediate child of .sidebar-nav.
+  
+   Hence, if I hover over the text, I'm hovering over <a>
+   But to change te properties of even/odd children,
+   I need to select <li>
+  
+   That didn't make sense, sorry.
+   I'm trash.
+ */
+.sidebar-nav li:nth-child(odd) a:hover {
+	color: #39B7CD;
+}
+
+.sidebar-nav li:nth-child(even) a:hover {
+	color: #ffffff;
+}
+
+
+/* SIDEBAR BOTTOM */
+/*
+   Why did the position become absolute?
+   So I can move the div lower.
+   Try to change it to fixed see the shitstain.
+   Static and relative works fine, but it's trickier.
+
+   Why did the left padding become 2.7em instead of 2em like the others?
+   The unit em is relative. Since the font size is smaller,
+   to make spacing equal the padding must be increased.
+
+   It feels like this missing a punchline, somehow, but it's the best I can do.
+ */
+.sidebar-bottom {
+	position: absolute;
+	padding: 2em 2.7em 2em 12em;
+	bottom: -10px;
+	color: #222222;
+	font-size: 0.6em;
+}
+
+.sidebar-bottom a {
+	text-decoration: none;
+	color: #222222;;
+}
+
+.sidebar-bottom a:hover {
+	color: #777777;
+}
+
+
+
+/* SIDEBAR BUTTON */
+.sidebar-button {
+	background-color: #000000;
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	top: 20px;
+	left: 20px;
+	-webkit-transition: left 1.5s
+}
+
+/* To imprison the three white lines in the middle of the button. */
+.sidebar-button-wrapper {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* Those three white lines. */
+.sticks:nth-child(1) {
+	height: 3px;
+	background-color: #ffffff;
+	border-radius: 2px;
+}
+
+.sticks:nth-child(2) {
+	height: 3px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	margin-top: 5px;
+}
+
+.sticks:nth-child(3) {
+	height: 3px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	margin-top: 5px;
+}
+
+.slide-button {
+	left: 19rem;
+}
+
+/* CONTENT */
+.main-content {
+	overflow: hidden
+}
