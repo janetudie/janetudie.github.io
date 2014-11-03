@@ -92,7 +92,7 @@ html {
 }
 
 .font-change-dark {
-	color: #00AAFF
+	color: #00CCFF
 }
 
 
@@ -111,6 +111,7 @@ ul {
 
 /* Navigation item fonts */
 .sidebar-nav a {
+	color: #666666;
 	text-decoration: none;
 }
 
@@ -128,7 +129,7 @@ ul {
    I'm trash.
  */
 .sidebar-nav li:nth-child(odd) a:hover {
-	color: #00AAFF;
+	color: #00CCFF;
 }
 
 .sidebar-nav li:nth-child(even) a:hover {
@@ -153,13 +154,13 @@ ul {
 	position: absolute;
 	padding: 2em 2.7em 2em 12em;
 	bottom: -10px;
-	color: #222222;
+	color: #444444;
 	font-size: 0.6em;
 }
 
 .sidebar-bottom a {
 	text-decoration: none;
-	color: #222222;;
+	color: #444444;
 }
 
 .sidebar-bottom a:hover {
