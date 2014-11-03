@@ -40,7 +40,7 @@ html {
 
 /* SIDEBAR */
  .sidebar {
-	background: #000000;
+	background: #313131;
  	text-align: right;
  	/* Original @media query begins here. */
  	position: fixed;
@@ -79,7 +79,7 @@ html {
 
 /* SIDEBAR DESCRIPTION */
 .sidebar-about {
-	color: #333333;
+	color: #aaaaaa;
 	text-align: right;
 	font-size: 0.8em;
 	padding: 2em;
@@ -96,7 +96,7 @@ html {
 
 /* SIDEBAR NAVIGATION */
 .sidebar-nav {
-	color: #555555;
+	color: #aaaaaa;
 	text-align: right;
 	font-size: 0.8em;
 	padding: 2em;
@@ -110,7 +110,7 @@ ul {
 
 /* Navigation item fonts */
 .sidebar-nav a {
-	color: #555555;
+	color: #aaaaaa;
 	text-decoration: none;
 }
 
@@ -153,17 +153,17 @@ ul {
 	position: absolute;
 	padding: 2em 2.7em 2em 12em;
 	bottom: -10px;
-	color: #444444;
+	color: #888888;
 	font-size: 0.6em;
 }
 
 .sidebar-bottom a {
 	text-decoration: none;
-	color: #444444;
+	color: #888888;
 }
 
 .sidebar-bottom a:hover {
-	color: #777777;
+	color: #bbbbbb;
 }
 
 
