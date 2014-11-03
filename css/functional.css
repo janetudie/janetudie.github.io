@@ -42,6 +42,7 @@ html {
  .sidebar {
 	background: #000000;
  	text-align: right;
+ 	color: #666666;
  	/* Original @media query begins here. */
  	position: fixed;
     top: 0;
@@ -56,6 +57,8 @@ html {
  	left: 0;
  }
 
+
+/* I'll take care of this later */
  @media (max-width: 48em) {
   .sidebar {
 
@@ -72,14 +75,13 @@ html {
 
 /* Changing the font of "Jellyfish" */
 .font-change-jelly {
-	color: #39B7CD;
+	color: #00AAFF;
 
 }
 
 
 /* SIDEBAR DESCRIPTION */
 .sidebar-about {
-	color: #333333;
 	text-align: right;
 	font-size: 0.8em;
 	padding: 2em;
@@ -90,13 +92,12 @@ html {
 }
 
 .font-change-dark {
-	color: #39B7CD
+	color: #00AAFF
 }
 
 
 /* SIDEBAR NAVIGATION */
 .sidebar-nav {
-	color: #333333;
 	text-align: right;
 	font-size: 0.8em;
 	padding: 2em;
@@ -110,7 +111,6 @@ ul {
 
 /* Navigation item fonts */
 .sidebar-nav a {
-	color: #333333;
 	text-decoration: none;
 }
 
@@ -128,7 +128,7 @@ ul {
    I'm trash.
  */
 .sidebar-nav li:nth-child(odd) a:hover {
-	color: #39B7CD;
+	color: #00AAFF;
 }
 
 .sidebar-nav li:nth-child(even) a:hover {
@@ -163,7 +163,7 @@ ul {
 }
 
 .sidebar-bottom a:hover {
-	color: #777777;
+	color: #888888;
 }
 
 
